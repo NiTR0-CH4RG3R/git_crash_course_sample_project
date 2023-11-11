@@ -1,6 +1,7 @@
 #include <cstdio>
 
 extern void external_function();
+extern void external_function_2();
 
 int main() {
     printf( "Hello, World!\n" );
@@ -8,7 +9,7 @@ int main() {
     printf( "Added another line!\n" );
 
     external_function();
-
+    external_function_2();
     getchar();
     return 0;
 }
