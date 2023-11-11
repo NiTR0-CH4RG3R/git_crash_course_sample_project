@@ -1,3 +1,5 @@
+#include "external_function.hpp"
+
 #include <cstdio>
 
 

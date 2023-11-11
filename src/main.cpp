@@ -1,7 +1,6 @@
 #include <cstdio>
-
-extern void external_function();
-extern void external_function_2();
+#include "external_function.hpp"
+#include "feature_01.hpp"
 
 int main() {
     printf( "Hello, World!\n" );
@@ -10,6 +9,9 @@ int main() {
 
     external_function();
     external_function_2();
+
+    feature_01();
+
     getchar();
     return 0;
 }
